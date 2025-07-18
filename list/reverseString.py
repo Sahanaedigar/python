@@ -1,7 +1,7 @@
 def revsString(inputstr):
     str1=[]
     start=len(inputstr)
-    for i in range(start-1,0,-1):
+    for i in range(start-1,-1,-1):
         str1.append(inputstr[i])
     return str1
 
