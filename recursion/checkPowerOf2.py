@@ -1,6 +1,6 @@
 def CheckTheNumberIsPowerOfTwo(num):
-    if num==1 or num==0:return True
-    elif num < 1 or num % 2 != 0:
+    if num==1 :return True
+    elif num ==0 or num % 2 != 0:
       return False
 
     return CheckTheNumberIsPowerOfTwo(num/2)
